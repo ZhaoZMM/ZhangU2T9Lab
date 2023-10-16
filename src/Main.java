@@ -1,8 +1,7 @@
 public class Main {
-    public static void main(String[] args) {
-        for (int i = 0; i < 100; i++) {
-            int randomNum = (int)(Math.random()*36)+50;
-            System.out.println(randomNum);
-        }
+    public static void main(String[] args){
+        System.out.println(Math.sin(33.3));
+        System.out.println(Math.toDegrees(.5));
+        System.out.println(Math.round(1.3));
     }
 }
